@@ -13,7 +13,7 @@ nav ul {
 }
 
 nav li {
-    float: left; /* Alinha os itens horizontalmente */
+    float: right; /* Alinha os itens horizontalmente */
 }
 
  nav li a {
@@ -22,11 +22,14 @@ nav li {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none; /* Remove o sublinhado dos links */
+    
 }
 
 nav li a:hover {
     background-color: #18d4c4fa; /* Efeito ao passar o mouse */
-    color: black;
+    opacity: .75;
+    
+    color: white;
 }
 
  .active {
@@ -35,3 +38,4 @@ nav li a:hover {
 
 .content {
     padding: 20px;
+}    
