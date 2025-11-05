@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none; /* Remove os marcadores de lista */
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    overflow: hidden; /* Garante que a cor de fundo cubra tudo */
+}
+
+nav li {
+    float: left; /* Alinha os itens horizontalmente */
+}
+
+ nav li a {
+    display: block; /* Transforma os links em blocos para melhor área de clique */
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+nav li a:hover {
+    background-color: #18d4c4fa; /* Efeito ao passar o mouse */
+    color: black;
+}
+
+ .active {
+    background-color: #04AA6D; /* Estilo para a página atual (Home) */
+}
+
+.content {
+    padding: 20px;
